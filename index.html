@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e7422ed1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>STUDENT</p>
+                <h1>Hi ,I'm <span>Sri</span> Vignesh<br>From Chennai ,India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ---------------ABOUT-------------- --> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Sri.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I'm Sri Vignesh, a passionate Developer with a love for creating innovative and impactful solutions.
+                        I have developed a diverse skill set that includes Full Stack Developing. 
+                        My journey as Web Developer has been fueled by a relentless curiosity and a commitment to excellence.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming in Python</span><br>Easy-to-read, versatile language for web, data, and AI.</li>
+                            <li><span>Programming in C</span><br>Efficient, low-level language for system programming.</li>
+                            <li><span>Programming in Java</span><br>Portable, object-oriented language for web and Android.</li>
+                            <li><span>Web Development</span><br>Developing WebPages</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>None</span><br>-</li>
+                            <!--<li><span>Web Development</span><br>Developing WebPages</li>
+                            <li><span>Web Development</span><br>Developing WebPages</li>-->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2026 (Pursuing)</span><br>THIAGARAJAR COLLEGE OF ENGINEERING , MADURAI</li>
+                            <li><span>2021 - 2022 (12th Standard)</span><br>NADAR SANGA MATRICULATION HIGHER SECONDARY SCHOOL , PAMMAL</li>
+                            <li><span>2019 - 2020 (10th Standard)</span><br>NADAR SANGA MATRICULATION HIGHER SECONDARY SCHOOL , PAMMAL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------Services------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>The art and science of creating visually appealing, 
+                        user-friendly websites that provide a seamless user experience across devices.</p>
+                    <a href="#">Learn more</a>    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Ui /Ux Design</h2>
+                    <p>The art and science of creating visually appealing, 
+                        user-friendly websites that provide a seamless user experience across devices.</p>
+                    <a href="#">Learn more</a>    
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>The art and science of creating visually appealing, 
+                        user-friendly websites that provide a seamless user experience across devices.</p>
+                    <a href="#">Learn more</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----Portfolio------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p> Developing platforms for connecting and engaging 
+                            users through interactive and dynamic content.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p> Developing platforms for connecting and engaging 
+                            users through interactive and dynamic content.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p> Developing platforms for connecting and engaging 
+                            users through interactive and dynamic content.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>    
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>itzmesreetce@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9150491305</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com"><i class="fa-brands fa-github"></i></i></a>
+                    </div>
+                    <a href="images/SRI VIGNESH S_RESUME.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="ce622e32-b059-4faf-a996-f018ba191e47">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Sri Vignesh</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
